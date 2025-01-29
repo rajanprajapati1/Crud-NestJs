@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Logs
+logs/
+*.log
+*.log.*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.test
+.env.production
+.env.local
+
+# Build output
+dist/
+.cache/
+out/
+
+# Dependencies
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS system files
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Debugging
+.nyc_output/
+coverage/
+*.tgz
+
+# Docker
+docker-compose.override.yml
